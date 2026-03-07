@@ -1,5 +1,9 @@
 #include <stdio.h>
-
+/*
+C program for :-
+Check whether a number is even or odd
+Author : Muhammad Areeb Shoaib
+*/
 int main()
 {
 
