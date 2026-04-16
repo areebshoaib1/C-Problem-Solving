@@ -1,5 +1,9 @@
 #include <stdio.h>
-
+/*
+C program for :-
+Write a C program to input a number and print Fibonacci series up to that many terms.
+Author : Muhammad Areeb Shoaib
+*/
 int main()
 {
     int number;
