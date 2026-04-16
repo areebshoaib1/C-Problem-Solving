@@ -1,5 +1,9 @@
 #include <stdio.h>
-
+/*
+C program for :-
+Find factorial of a number
+Author : Muhammad Areeb Shoaib
+*/
 int main()
 {
     int number;
