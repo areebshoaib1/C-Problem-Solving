@@ -1,5 +1,9 @@
 #include <stdio.h>
-
+/*
+C program for :-
+Find GCD of two numbers
+Author : Muhammad Areeb Shoaib
+*/
 int main()
 {
     int n1;
