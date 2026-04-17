@@ -1,5 +1,9 @@
 #include <stdio.h>
-
+/*
+C program for :-
+ Check whether a number is Armstrong
+Author : Muhammad Areeb Shoaib
+*/
 int main()
 {
     int number;
