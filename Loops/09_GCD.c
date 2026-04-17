@@ -26,4 +26,5 @@ int main()
     }
 
     printf("Greatest common divisor is %d", gcd);
+    return 0;
 }
