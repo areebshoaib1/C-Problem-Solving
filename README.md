@@ -38,6 +38,7 @@ The goal of this repository is to practice problem solving and  programming logi
 24. Count even and odd numbers in array
 25. Search an element (linear search)
 26. Sort an array (ascending order)
+
 27.Write a C program to add two one-dimensional arrays. If the arrays are of different sizes, assume the missing elements of the smaller array as 0.
 
 More problems will be added as I continue learning.
