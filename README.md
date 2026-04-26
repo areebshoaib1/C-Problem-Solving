@@ -43,7 +43,7 @@ The goal of this repository is to practice problem solving and  programming logi
 28. Add two 2D Arrays
 29. Find transpose of 2D Arrays
 30. Find sum of each row and column of 2D array
-
+31. Write a C program to find the sum of the primary and secondary diagonals of a  2D array.
 
 More problems will be added as I continue learning.
 
