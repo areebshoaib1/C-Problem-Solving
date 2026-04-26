@@ -40,7 +40,9 @@ The goal of this repository is to practice problem solving and  programming logi
 26. Sort an array (ascending order)
 
 27.Write a C program to add two one-dimensional arrays. If the arrays are of different sizes, assume the missing elements of the smaller array as 0.
-
+28. Add two 2D Arrays
+29. Find transpose of 2D Arrays
+30. Find sum of each row and column of 2D array
 More problems will be added as I continue learning.
 
 
