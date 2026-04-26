@@ -1,42 +1,35 @@
 #include <stdio.h>
 /*
 C program for :-
-Find transpose of Array
+Find transpose of 2D Array
 Author : Muhammad Areeb Shoaib
 */
 int main()
 {
-    int arr[3][3] = {
-        {11, 12, 14},
-        {21, 22, 24},
-        {31, 32, 34},
+    int arr[4][4] = {
+        {11, 12, 13, 14},
+        {21, 22, 23, 24},
+        {31, 32, 33, 34},
+        {41, 42, 43, 44},
     };
 
-    int arr_2[3][3] = {
-        {8, 9, 10},
-        {18, 19, 20},
-        {28, 29, 30},
-    };
-
-    int arr_3[3][3];
-
-    for (int i = 0; i < 3; i++)
+    for (int i = 0; i < 4; i++)
     {
-        for (int j = 0; j < 3; j++)
+        for (int j = i + 1; j < 4; j++)
         {
-
-            arr_3[i][j] = arr[i][j] + arr_2[i][j];
+            int temp = arr[i][j];
+            arr[i][j] = arr[j][i];
+            arr[j][i] = temp;
         }
     }
-    for (int k = 0; k < 3; k++)
+
+    for (int i = 0; i < 4; i++)
     {
-        printf("\n");
-
-        for (int l = 0; l < 3; l++)
+        for (int j = 0; j < 4; j++)
         {
-
-            printf("%d ", arr_3[k][l]);
+            printf("%d ", arr[i][j]);
         }
+        printf("\n");
     }
 
     return 0;
