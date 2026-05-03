@@ -8,7 +8,7 @@ Author : Muhammad Areeb Shoaib
 
 int main()
 {
-    int rows = 6;
+    int rows = 20;
 
     for (int i = 0; i < rows; i++)
     {
