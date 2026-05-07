@@ -1,10 +1,10 @@
+#include <stdio.h>
+
 /*
 C program for :-
 Print diamond pattern
 Author : Muhammad Areeb Shoaib
 */
-
-#include <stdio.h>
 
 int main()
 {
