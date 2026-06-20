@@ -9,10 +9,15 @@ Author : Muhammad Areeb Shoaib
 void swap(int *number_1, int *number_2);
 void swap(int *number_1, int *number_2)
 {
+    printf("Before Swap: \n");
+    printf("num1: %d\n", number_1);
+    printf("num2: %d", number_2);
     int temp;
     temp = *number_1;
     *number_1 = *number_2;
     *number_2 = temp;
+    printf("After Swap: \n");
+
     printf("num1: %d\n", *number_1);
     printf("num2: %d\n", *number_2);
 }
