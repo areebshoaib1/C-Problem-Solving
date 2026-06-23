@@ -45,10 +45,37 @@ The goal of this repository is to practice problem solving and  programming logi
 30. Find sum of each row and column of 2D array
 31. Write a C program to find the sum of the primary and secondary diagonals of a  2D array.
 
-More problems will be added as I continue learning.
 
+## Star & Pattern Problems
+32. Print right triangle star pattern
+33. Print inverted triangle
+34. Print pyramid pattern
+35. Print number pattern
+36. Print reverse number pattern
+37. Print hollow square pattern
+38. Print diamond pattern
+39. Print pattern using 2D array
+40. Print checkerboard pattern
+41. Print X pattern using stars
 
+## Functions
+42. Function to check prime number
+43. Function to calculate factorial
+44. Function to find maximum of two numbers
+45. Function to reverse a number
+46. Function to check palindrome
+47. Function to find sum of array elements
+48. Function to swap two numbers (call by value)
+49. Function to swap two numbers (call by reference)
+50. Recursive function for factorial
+51. Recursive function for Fibonacci
+
+## Pointers
+52. Print value and address of a variable
+53. Swap two numbers using pointers
+54. Access array elements using pointers
+55. Find length of string using pointers
+56. Sum of array elements using pointers
 
 ## Language
-
-C Programming
+**C**
