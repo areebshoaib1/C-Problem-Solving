@@ -1,0 +1,24 @@
+========================================
+         LOG ANALYSIS REPORT
+========================================
+File     : server_10000_lines.log
+Total    : 10000 lines
+----------------------------------------
+ERROR    : 875  (8.8%)
+WARN     : 1161  (11.6%)
+INFO     : 6273  (62.7%)
+UNKNOWN  : 1691  (16.9%)
+----------------------------------------
+TOP REPEATED ERRORS:
+
+  1. [1x] 2026-08-04 04:31:44.000000 [ERROR] Server=API-SRV-02 Process=7780 Thread=52 RequestId=918dec673896 ClientIP=10.20.4.18 UserId=3504 Method=POST Path=/api/orders StatusCode=400 ResponseTime=3978ms Database=SQL-PROD-01 Message="External API request failed"
+  2. [1x] 2026-08-09 17:14:00.000000 [ERROR] Server=API-SRV-02 Process=7049 Thread=52 RequestId=a9b6787d842c ClientIP=192.168.1.51 UserId=4585 Method=POST Path=/api/users StatusCode=400 ResponseTime=26232ms Database=SQL-PROD-02 Message="Request processing failed wi
+  3. [1x] 2026-08-03 03:13:50.000000 [ERROR] Server=API-SRV-02 Process=3411 Thread=32 RequestId=348d63b659f1 ClientIP=192.168.1.24 UserId=6198 Method=DELETE Path=/api/orders StatusCode=502 ResponseTime=22875ms Database=SQL-REPORT-01 Message="External API request fa
+  4. [1x] 2026-08-12 12:43:08.000000 [ERROR] Server=API-SRV-02 Process=8018 Thread=55 RequestId=2ea2a0d1a683 ClientIP=172.16.2.91 UserId=5050 Method=DELETE Path=/api/orders StatusCode=500 ResponseTime=16554ms Database=SQL-PROD-02 Message="Request processing failed 
+  5. [1x] 2026-08-05 19:32:02.000000 [ERROR] Server=APP-SRV-02 Process=3622 Thread=32 RequestId=6dc558228601 ClientIP=192.168.1.24 UserId=6688 Method=PUT Path=/health StatusCode=502 ResponseTime=27090ms Database=SQL-PROD-01 Message="Database command execution timed
+  6. [1x] 2026-08-07 17:42:24.000000 [ERROR] Server=APP-SRV-02 Process=8657 Thread=61 RequestId=a7f7a4410bf6 ClientIP=10.20.7.33 UserId=4986 Method=DELETE Path=/api/users StatusCode=500 ResponseTime=8261ms Database=SQL-REPORT-01 Message="Unhandled exception while p
+  7. [1x] 2026-08-02 11:08:36.000000 [ERROR] Server=APP-SRV-02 Process=5584 Thread=16 RequestId=c0ef900edd48 ClientIP=172.16.2.91 UserId=9595 Method=POST Path=/api/auth/login StatusCode=404 ResponseTime=16866ms Database=SQL-REPORT-01 Message="File operation failed"
+  8. [1x] 2026-08-07 01:09:44.000000 [ERROR] Server=API-SRV-01 Process=7168 Thread=35 RequestId=38759ea71dc2 ClientIP=10.20.7.33 UserId=4122 Method=DELETE Path=/api/inventory StatusCode=401 ResponseTime=19063ms Database=SQL-PROD-02 Message="External API request fai
+  9. [1x] 2026-08-03 18:15:36.000000 [ERROR] Server=APP-SRV-01 Process=6555 Thread=13 RequestId=b271e1f52bcb ClientIP=192.168.1.24 UserId=1919 Method=DELETE Path=/api/orders StatusCode=400 ResponseTime=1948ms Database=SQL-PROD-02 Message="Unhandled exception while 
+  10. [1x] 2026-08-05 06:15:54.000000 [ERROR] Server=APP-SRV-02 Process=4935 Thread=14 RequestId=c45673fdb68c ClientIP=192.168.1.51 UserId=3902 Method=PUT Path=/api/auth/login StatusCode=503 ResponseTime=6009ms Database=SQL-PROD-01 Message="Authentication failed"
+========================================

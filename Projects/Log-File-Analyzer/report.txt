@@ -1,0 +1,24 @@
+========================================
+         LOG ANALYSIS REPORT
+========================================
+File     : CBS.log
+Total    : 37244 lines
+----------------------------------------
+ERROR    : 609  (1.6%)
+WARN     : 5  (0.0%)
+INFO     : 36017  (96.7%)
+UNKNOWN  : 613  (1.6%)
+----------------------------------------
+TOP REPEATED ERRORS:
+
+  1. [104x] 2026-05-07 13:34:57, Error                        Failed opening package: 80010108 [Error,Facility=(0001),Code=264 (0x0108)]
+  2. [2x] 2026-05-07 13:34:57, Error                        Failed to create action list.: 80010108 [Error,Facility=(0001),Code=264 (0x0108)]
+  3. [1x] 2026-05-07 13:34:57, Info                         Failed to open package: HyperV-OptionalFeature-VirtualMachinePlatform-Client-Disabled-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.8328: 80010108 [Error,Facility=(0001),Code=264 (0x0108)]
+  4. [1x] 2026-05-07 13:34:57, Info                         Failed to open package: Microsoft-Edge-WebView-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.8328: 80010108 [Error,Facility=(0001),Code=264 (0x0108)]
+  5. [1x] 2026-05-07 13:34:57, Info                         Failed to open package: Microsoft-OneCore-ApplicationModel-Sync-Desktop-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.8328: 80010108 [Error,Facility=(0001),Code=264 (0x0108)]
+  6. [1x] 2026-05-07 13:34:57, Info                         Failed to open package: Microsoft-OneCore-DirectX-Database-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.8328: 80010108 [Error,Facility=(0001),Code=264 (0x0108)]
+  7. [1x] 2026-05-07 13:34:57, Info                         Failed to open package: Microsoft-Windows-Client-LanguagePack-Package~31bf3856ad364e35~amd64~en-US~10.0.26100.8328: 80010108 [Error,Facility=(0001),Code=264 (0x0108)]
+  8. [1x] 2026-05-07 13:34:57, Info                         Failed to open package: Microsoft-Windows-DirectoryServices-ADAM-Client-FOD-Package~31bf3856ad364e35~amd64~en-US~10.0.26100.1: 80010108 [Error,Facility=(0001),Code=264 (0x0108)]
+  9. [1x] 2026-05-07 13:34:57, Info                         Failed to open package: Microsoft-Windows-DirectoryServices-ADAM-Client-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.8328: 80010108 [Error,Facility=(0001),Code=264 (0x0108)]
+  10. [1x] 2026-05-07 13:34:57, Info                         Failed to open package: Microsoft-Windows-DirectoryServices-ADAM-Client-FOD-Package~31bf3856ad364e35~wow64~en-US~10.0.26100.1: 80010108 [Error,Facility=(0001),Code=264 (0x0108)]
+========================================

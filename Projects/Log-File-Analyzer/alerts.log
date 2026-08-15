@@ -1,0 +1,2 @@
+[ALERT] File: CBS.log | Errors: 609 | Threshold: 500
+[ALERT] File: server_10000_lines.log | Errors: 875 | Threshold: 100
