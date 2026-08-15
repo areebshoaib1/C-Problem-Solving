@@ -38,20 +38,20 @@ Log-File-Analyzer/
 ├── alerts.log              - example exported alert log
 
 ```
-
 ## How to Build
+Make sure GCC is installed, then run:
+
 ```bash
-make
-```
+gcc -Wall -g -o analyzer 03_file_io.c 05_parser.c 07_analyzer.c 09_reporter.c 11_alerts.c 12_main.c
 
 ## How to Run
 ```bash
-analyzer.exe <logfile> [--output report.txt] [--threshold 50]
+./analyzer.exe <logfile> [--output report.txt] [--threshold 50]
 ```
 
 **Example:**
 ```bash
-analyzer.exe server.log
+./analyzer.exe server.log
 ```
 
 ## Sample Output
