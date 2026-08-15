@@ -36,7 +36,7 @@ Log-File-Analyzer/
 ├── server.log              - sample log file for testing
 ├── report.txt              - example exported report (--output)
 ├── alerts.log              - example exported alert log
-└── analyzer.exe            - compiled executable (Windows)
+
 ```
 
 ## How to Build
