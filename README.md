@@ -1,6 +1,6 @@
 # C Problem Solving
 
-This repository contains C programming problems that I solve while learning Programming Fundamentals.
+This repository contains C programming problems .
 
 The goal of this repository is to practice problem solving and  programming logic using C.
 
